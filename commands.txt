@@ -1,0 +1,73 @@
+    1  clear
+    2  mkdir hello
+    3  cd hello
+    4  touch empty
+    5  cd ..
+    6  clear
+    7  cd lab0
+    8  mkdir hello
+    9  cd hello
+   10  touch empty
+   11  cd ..
+   12  cd src
+   13  cp hello.c hello/empty
+   14  cp hello.c lab0/hello/empty
+   15  cd hello.c os_lab_2025/lab0/hello/empty
+   16  clear
+   17  cd ..
+   18  clear
+   19  cd ..
+   20  clear
+   21  mkdir lab0/hello
+   22  touch lab0/hello/empty
+   23  cp lab0/src/hello.c lab0/hello/hello1.c
+   24  clear
+   25  cd lab0
+   26  mkdir hello
+   27  touch hello/empty
+   28  cp src/hello.c hello/hello1.c
+   29  mv hello/hello1.c hello/newhello.c
+   30  clear
+   31  cd ..
+   32  bash update.sh
+   33  ping ya.ru -с 5
+   34  clear
+   35  bash update.sh
+   36  ping ya.ru -c 5
+   37  gcc -v
+   38  clear
+   39  gcc newhello.c -o hello_world
+   40  clear
+   41  cd lab0/hello
+   42  gcc newhello.c -o hello/world
+   43  clear
+   44  gcc newhello.c -o hello_world
+   45  ./hello_world
+   46  clear
+   47  git add lab0/hello/empty
+   48  clear
+   49  cd ..
+   50  clear
+   51  git add lab0/hello/empty
+   52  clear
+   53  cd ..
+   54  clear
+   55  git add lab0/hello/empty
+   56  git add lab0/hello/newhello.c
+   57  git status
+   58  git commit -m "добавлен hello.c и empty".
+   59  git push
+   60  git remote -v
+   61  git remote set-url upstream https://github.com/AlSky361/os_lab_2025.git
+   62  git remote -v
+   63  git push
+   64  git remote set-url origin https://github.com/AlSky361/os_lab_2025.git
+   65  git push
+   66  git remote -v
+   67  git remote set-url upstream https://github.com/spintex-opsys/os_lab_2025.git
+   68  git remote set-url origin https://github.com/AlSky361/os_lab_2025
+   69  g remote -v
+   70  git remote -v
+   71  git pus
+   72  git push
+   73  history > commands.txt
