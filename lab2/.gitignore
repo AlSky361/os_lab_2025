@@ -1,0 +1,7 @@
+*.o
+*.a
+*.so
+app_static
+app_dynamic
+swap
+revert_string
