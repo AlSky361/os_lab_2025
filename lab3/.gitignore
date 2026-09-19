@@ -1,0 +1,5 @@
+*.o
+sequential_min_max
+parallel_min_max
+seq_min_max_runner
+result_*.txt
